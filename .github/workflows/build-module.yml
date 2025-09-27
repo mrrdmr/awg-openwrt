@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "openwrt-24.10"
+          - tag: "openwrt-24.10-6.6"
             pkgarch: aarch64_cortex-a53
             target: mediatek
             subtarget: filogic
